@@ -28,50 +28,50 @@ manipulation and analysis in Python.
     `v` is an eigenvector.
 
 ## Coding
-import numpy as np
-import pandas as pd
-
-# Create a matrix and vector
-A = np.array([[2, 1], [1, 3]])
-b = np.array([5, 6])
-
-# Transpose
-transpose = np.transpose(A)
-
-# Inverse
-inverse = np.linalg.inv(A)
-
-# Solve linear equations
-solution = np.linalg.solve(A, b)
-
-# Eigenvalues and eigenvectors
-eigenvalues, eigenvectors = np.linalg.eig(A)
-
-# Display results
-print("Original Matrix:\n", A)
-print("Transpose:\n", transpose)
-print("Inverse:\n", inverse)
-print("Solution:\n", solution)
-print("Eigenvalues:\n", eigenvalues)
-print("Eigenvectors:\n", eigenvectors)
+    import numpy as np
+    import pandas as pd
+    
+    # Create a matrix and vector
+    A = np.array([[2, 1], [1, 3]])
+    b = np.array([5, 6])
+    
+    # Transpose
+    transpose = np.transpose(A)
+    
+    # Inverse
+    inverse = np.linalg.inv(A)
+    
+    # Solve linear equations
+    solution = np.linalg.solve(A, b)
+    
+    # Eigenvalues and eigenvectors
+    eigenvalues, eigenvectors = np.linalg.eig(A)
+    
+    # Display results
+    print("Original Matrix:\n", A)
+    print("Transpose:\n", transpose)
+    print("Inverse:\n", inverse)
+    print("Solution:\n", solution)
+    print("Eigenvalues:\n", eigenvalues)
+    print("Eigenvectors:\n", eigenvectors)
 
 ## Output
-Original Matrix:
- [[2 1]
- [1 3]]
-Transpose:
- [[2 1]
- [1 3]]
-Inverse:
- [[ 0.6 -0.2]
- [-0.2  0.4]]
-Solution:
- [1.8 1.4]
-Eigenvalues:
- [1.38196601 3.61803399]
-Eigenvectors:
- [[-0.85065081 -0.52573111]
- [ 0.52573111 -0.85065081]]
+    Original Matrix:
+     [[2 1]
+     [1 3]]
+    Transpose:
+     [[2 1]
+     [1 3]]
+    Inverse:
+     [[ 0.6 -0.2]
+     [-0.2  0.4]]
+    Solution:
+     [1.8 1.4]
+    Eigenvalues:
+     [1.38196601 3.61803399]
+    Eigenvectors:
+     [[-0.85065081 -0.52573111]
+     [ 0.52573111 -0.85065081]]
 
 ## Result
 Thus, NumPy and Pandas libraries were studied for basic data manipulation and analysis. Matrix transpose, inverse, linear equation solving, and eigenvalue calculations were successfully performed using Python.
